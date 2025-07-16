@@ -562,6 +562,7 @@ p {
   color: #ffffff;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .footer-subscribe-form {
@@ -577,9 +578,10 @@ p {
   background-color: transparent;
   padding-left: 16px;
   color: #ffffff;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 12px;
+  line-height: 2;
   letter-spacing: 0.04em;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer-subscribe-input::placeholder {
@@ -612,6 +614,7 @@ p {
 
 .footer-subscribe-icon {
   fill: #ffffff;
+  margin-left: 16px;
 }
 /* === POP-UP === */
 
@@ -702,7 +705,7 @@ margin-bottom: 16px;
   display: flex;
   flex-direction: column;
 }
-.pop-up-field label {
+.pop-up-label {
 font-weight: 400;
 font-size: 12px;
 line-height: 1.17;
