@@ -678,8 +678,9 @@ margin-bottom: 16px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #101013;
 }
-.pop-up-icon:hover , .pop-up-icon:focus {
-  fill:  #ffffff
+.pop-up-close-bth:hover .pop-up-icon,
+.pop-up-close-bth:focus .pop-up-icon {
+  fill: #ffffff;
 }
 .pop-up-close-bth:hover ,
 .pop-up-close-bth:focus {
@@ -694,9 +695,7 @@ margin-bottom: 16px;
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.pop-up-icon-information:focus{
-  fill: #4D5AE5;
-}
+
 .pop-up-field{
   border: none;
   margin-bottom: 8px;
@@ -724,9 +723,9 @@ margin-bottom: 4px;
 .pop-up-field-input:focus {
   border-color: #4d5ae5;
 }
-.input-wrapper:focus-within .pop-up-icon-information {
-  border-color: #4D5AE5;
-}
+.input-wrapper:focus-within .pop-up-icon-information { 
+  fill: #4D5AE5;
+ }
 
 
 .input-wrapper {
@@ -792,9 +791,9 @@ margin-bottom: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition:
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
