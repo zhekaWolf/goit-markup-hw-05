@@ -613,6 +613,8 @@ p {
 .footer-subscribe-icon {
   fill: #ffffff;
 }
+/* === POP-UP === */
+
 .overley{
     position: fixed;
     top: 0;
@@ -672,18 +674,19 @@ margin-bottom: 16px;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.pop-up-close-bth svg {
+.pop-up-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  fill: #e7e9fc;
-  transition: fill 250ms ease;
+  fill: #101013;
+}
+.pop-up-icon:hover , .pop-up-icon:focus {
+  fill:  #ffffff
 }
 .pop-up-close-bth:hover ,
 .pop-up-close-bth:focus {
-  background-color: #f4f4fd;
-  fill: #ffffff
+  background-color: #404bbf;
+  border: none;
 }
-.pop-up-icon{
+.pop-up-icon-information{
   border-radius: 100%;
 fill: #e7e9fc;
 stroke-width: 1px;
@@ -711,19 +714,11 @@ margin-bottom: 4px;
   height: 40px;
   padding-left: 38px;
   outline: transparent;
+  background-color: transparent;
  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-wrapper:focus-within .pop-up-icon-information {
   border-color: #4D5AE5;
-}
-
-.input-wrapper:focus-within .pop-up-field-input {
-  border: 1px solid #4D5AE5;
-
-}
-.pop-up-icon-information,
-.pop-up-field-input {
-  transition: fill 250ms ease, border-color 250ms ease;
 }
 
 
@@ -737,7 +732,7 @@ margin-bottom: 4px;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #2e2f42;
 }
 .comment{
   margin-bottom: 16px;
