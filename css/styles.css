@@ -782,9 +782,6 @@ margin-bottom: 4px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--form-text-color, #8e8f99);
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
 
 /* Кастомний чекбокс */
@@ -816,9 +813,10 @@ margin-bottom: 4px;
   fill: var(--checkbox-icon-color, #f4f4fd);
 }
 
-.pop-up-privacy-checkbox:checked + .privacy-label .custom-checkbox .checkbox-icon {
-  fill: var(--checkbox-icon-color, #f4f4fd);
+.pop-up-privacy-checkbox:checked + .privacy-label .custom-checkbox .checkbox-icon use {
+  fill: #f4f4fd;
 }
+
 
 /* Посилання */
 .privacy-link {
